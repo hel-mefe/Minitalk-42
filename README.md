@@ -11,7 +11,7 @@ to Another Process via Signals only.
 According to POSIX Specifications, in every UNIX system there should be a 2 customizable Signals named SIGUSR1 and SIGUSR2 which a programmer can freely
 use to communicate between 2 processes.
 
-These 2 Signals are not specified by the system by rather by the use or the programmer, it's up to you to tell your program what to do when it receives
+These 2 Signals are not specified by the system by rather by the user or the programmer, it's up to you to tell your program what to do when it receives
 one of these 2 Signals.
 
 ## Algorithm to send a message by Signals
